@@ -1,0 +1,129 @@
+action,action_player,object_player,time,sig,team,num
+Turnover,Timofey Mozgov,0,16,1,CLE,20
+Steal,LeBron James,Brandon Rush,35,2,CLE,23
+Turnover,Brandon Rush,0,35,6,GSW,4
+DefRbd,Klay Thompson,0,57,7,GSW,11
+Miss,Kevin Love,0,57,3,CLE,0
+Miss,Klay Thompson,0,62,7,GSW,11
+DefRbd,J.R. Smith,0,64,4,CLE,5
+Miss,Kevin Love,0,77,3,CLE,0
+DefRbd,Draymond Green,0,78,8,GSW,23
+pt2,Andrew Bogut,0,91,9,GSW,12
+Assist,Klay Thompson,Andrew Bogut,91,7,GSW,11
+Miss,LeBron James,0,116,2,CLE,23
+DefRbd,Andrew Bogut,0,118,9,GSW,12
+Turnover,Draymond Green,0,131,8,GSW,23
+Assist,Kevin Love,J.R. Smith,145,3,CLE,0
+pt3,J.R. Smith,0,145,4,CLE,5
+Assist,Draymond Green,Andrew Bogut,157,8,GSW,23
+pt2,Andrew Bogut,0,157,9,GSW,12
+Block,Draymond Green,Kyrie Irving,177,8,GSW,23
+Miss,Kyrie Irving,0,177,5,CLE,2
+OfRed,Kyrie Irving,0,179,5,CLE,2
+Miss,J.R. Smith,0,187,4,CLE,5
+DefRbd,Brandon Rush,0,188,6,GSW,4
+Turnover,Draymond Green,0,194,8,GSW,23
+pt2,LeBron James,0,214,2,CLE,23
+Miss,Stephen Curry,0,223,10,GSW,30
+DefRbd,Kevin Love,0,224,3,CLE,0
+Block,Andrew Bogut,Timofey Mozgov,230,9,GSW,12
+Miss,Timofey Mozgov,0,230,1,CLE,20
+DefRbd,Draymond Green,0,231,8,GSW,23
+Foul,J.R. Smith,0,233,4,CLE,5
+Free,Draymond Green,0,233,8,GSW,23
+Free,Draymond Green,0,233,8,GSW,23
+Free,Kyrie Irving,0,255,5,CLE,2
+Free,Kyrie Irving,0,255,5,CLE,2
+Foul,Brandon Rush,0,255,6,GSW,4
+Assist,Stephen Curry,Draymond Green,270,10,GSW,30
+pt3,Draymond Green,0,270,8,GSW,23
+pt3,J.R. Smith,0,284,4,CLE,5
+Assist,Kevin Love,J.R. Smith,284,3,CLE,0
+Miss,Klay Thompson,0,295,7,GSW,11
+Miss,Stephen Curry,0,307,10,GSW,30
+DefRbd,Kevin Love,0,307,3,CLE,0
+pt2,Kevin Love,0,321,3,CLE,0
+Miss,Draymond Green,0,333,8,GSW,23
+OfRed,Andrew Bogut,0,334,9,GSW,12
+pt2,Klay Thompson,0,342,7,GSW,11
+Assist,Draymond Green,Klay Thompson,342,8,GSW,23
+Miss,Kevin Love,0,369,3,CLE,0
+OfRed,Timofey Mozgov,0,370,1,CLE,20
+Miss,Kevin Love,0,375,3,CLE,0
+Block,Draymond Green,Kevin Love,375,8,GSW,23
+sub,Andre Iguodala,Brandon Rush,377,6,GSW,9
+Steal,Stephen Curry,Kyrie Irving,384,10,GSW,30
+Turnover,Kyrie Irving,0,384,5,CLE,2
+sub,Matthew Dellavedova,Kyrie Irving,386,5,CLE,8
+Foul,Kevin Love,0,386,3,CLE,0
+Assist,Stephen Curry,Draymond Green,395,10,GSW,30
+pt3,Draymond Green,0,395,8,GSW,23
+Miss,Timofey Mozgov,0,416,1,CLE,20
+Block,Andrew Bogut,Timofey Mozgov,416,9,GSW,12
+OfRed,Timofey Mozgov,0,421,1,CLE,20
+Miss,Timofey Mozgov,0,421,1,CLE,20
+DefRbd,Draymond Green,0,422,8,GSW,23
+Free,Stephen Curry,0,425,10,GSW,30
+Free,Stephen Curry,0,425,10,GSW,30
+Foul,Timofey Mozgov,0,425,1,CLE,20
+sub,Tristan Thompson,Timofey Mozgov,425,1,CLE,13
+Miss,Matthew Dellavedova,0,439,5,CLE,8
+DefRbd,Draymond Green,0,440,8,GSW,23
+Miss,Draymond Green,0,446,8,GSW,23
+Block,Kevin Love,Draymond Green,446,3,CLE,0
+DefRbd,Tristan Thompson,0,448,1,CLE,13
+Block,Klay Thompson,LeBron James,459,7,GSW,11
+Miss,LeBron James,0,459,2,CLE,23
+DefRbd,Andrew Bogut,0,461,9,GSW,12
+Miss,Stephen Curry,0,470,10,GSW,30
+DefRbd,Kevin Love,0,471,3,CLE,0
+Foul,Stephen Curry,0,478,10,GSW,30
+pt2,Matthew Dellavedova,0,478,5,CLE,8
+sub,Iman Shumpert,Kevin Love,478,3,CLE,4
+Free,Matthew Dellavedova,0,478,5,CLE,8
+sub,Shaun Livingston,Klay Thompson,478,7,GSW,34
+Miss,Andre Iguodala,0,497,6,GSW,9
+OfRed,Shaun Livingston,0,498,7,GSW,34
+Turnover,Shaun Livingston,0,500,7,GSW,34
+Steal,J.R. Smith,Shaun Livingston,500,4,CLE,5
+Miss,Iman Shumpert,0,513,3,CLE,4
+DefRbd,Shaun Livingston,0,515,7,GSW,34
+sub,Festus Ezeli,Andrew Bogut,526,9,GSW,31
+Foul,Matthew Dellavedova,0,526,5,CLE,8
+Free,Stephen Curry,0,526,10,GSW,30
+pt2,Stephen Curry,0,526,10,GSW,30
+Assist,Andrew Bogut,Stephen Curry,526,9,GSW,12
+Turnover,LeBron James,0,535,2,CLE,23
+Steal,Andre Iguodala,LeBron James,535,6,GSW,9
+pt2,Shaun Livingston,0,541,7,GSW,34
+Assist,Stephen Curry,Shaun Livingston,541,10,GSW,30
+Miss,LeBron James,0,559,2,CLE,23
+DefRbd,Draymond Green,0,560,8,GSW,23
+Turnover,Shaun Livingston,0,567,7,GSW,34
+Steal,Iman Shumpert,Shaun Livingston,567,3,CLE,4
+Miss,Iman Shumpert,0,578,3,CLE,4
+DefRbd,Stephen Curry,0,578,10,GSW,30
+pt3,Stephen Curry,0,585,10,GSW,30
+Assist,Draymond Green,Stephen Curry,585,8,GSW,23
+pt2,LeBron James,0,604,2,CLE,23
+Assist,Shaun Livingston,Draymond Green,626,7,GSW,34
+sub,James Jones,LeBron James,626,2,CLE,1
+pt2,Draymond Green,0,626,8,GSW,23
+sub,Mo Williams,J.R. Smith,626,4,CLE,52
+Foul,J.R. Smith,0,626,4,CLE,5
+Miss,Draymond Green,0,626,8,GSW,23
+DefRbd,James Jones,0,627,2,CLE,1
+Miss,Iman Shumpert,0,636,3,CLE,4
+DefRbd,Shaun Livingston,0,637,7,GSW,34
+Turnover,Draymond Green,0,647,8,GSW,23
+Miss,Matthew Dellavedova,0,661,5,CLE,8
+DefRbd,Draymond Green,0,662,8,GSW,23
+DefRbd,James Jones,0,667,2,CLE,1
+Miss,Stephen Curry,0,667,10,GSW,30
+pt2,Tristan Thompson,0,672,1,CLE,13
+Assist,Iman Shumpert,Tristan Thompson,672,3,CLE,4
+pt2,Shaun Livingston,0,689,7,GSW,34
+Miss,Mo Williams,0,708,4,CLE,52
+OfRed,Tristan Thompson,0,708,1,CLE,13
+Foul,Festus Ezeli,0,710,9,GSW,31
+sub,LeBron James,Mo Williams,710,4,CLE,23
