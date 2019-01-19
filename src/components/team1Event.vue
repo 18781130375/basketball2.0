@@ -47,17 +47,17 @@
 			}
 		},
 		methods: {
-			RandomTime() {
-				var time = [];
-				var temp = 0;
-				while(temp <= 720) {
-					var t = Math.random(0, 1) * 30;
-					time.push([temp, temp + t]);
-					temp = temp + t;
-				}
-				console.log(time);
-				return time;
-			}
+//			RandomTime() {
+//				var time = [];
+//				var temp = 0;
+//				while(temp <= 720) {
+//					var t = Math.random(0, 1) * 30;
+//					time.push([temp, temp + t]);
+//					temp = temp + t;
+//				}
+//				console.log(time);
+//				return time;
+//			}
 		},
 		created() {},
 		mounted() {
@@ -79,30 +79,30 @@
 			var playerpad = height * 0.7 / 10,
 				team1wid = playerpad * 5 * 1.2;
 
+
+			//获取步态数据
+			this.$axios.get('/apis/attack_time/1').then(res => {
+				console.log(res.data)
+				//模拟的步态时间 一个步态 是一个投球
+				var time = res.data;
+	
+				for(var i=0;i<time.length;i++) {
+					drawMask(time[i][0], time[i][1]);
+				}
+			})
+			
 			this.$axios.get('/apis/staff/0,720').then(res => {
 				//console.log(res.data);
 				DrawEvents(res.data);
-				//FilterEvents(515.2, 541.1);
 			})
 
 			//获取折线图数据
-			this.$axios.get('/apis/attack_time/' + '0' + ',' + '720').then(res => {
+			this.$axios.get('/apis/score/' + '0' + ',' + '720').then(res => {
 				var score = res.data;
 				DrawStepLine(score);
 			})
-			
-			//获取步态数据
-//			this.$axios.get('/apis/score/' + '0' + ',' + '720').then(res => {
-//				var score = res.data;
-//				console.log(score)
-//			})
-//			
-			//模拟的步态时间 一个步态 是一个投球
-			var time = me.RandomTime();
-			for(var i in time) {
-				drawMask(time[i][0], time[i][1]);
-			}
 
+			
 			//mask层的交互
 			function drawMask(st, et) {
 				var stepwid = xscale(et) - xscale(st);
@@ -694,7 +694,7 @@
 				}
 
 			}
-			
+
 			/*FilterEvents 该版本 没有使用*/
 			function FilterEvents(st, et) {
 				st = xscale(st);
@@ -792,10 +792,10 @@
 					}
 				}
 				//console.log(selectArrary);
-				
+
 				//与轨迹图的交互 当前所有选择的时间段的时间
 				me.$root.Bus.$emit('trail', selectArrary);
-				
+
 				for(var j = 0; j < image.length; j++) {
 					var dom = document.getElementsByName(image[j]['1']); //img所有动作
 					var domicon = document.getElementById(image[j]['1'] + 'icon'); //所有logo
@@ -807,7 +807,7 @@
 						var second = item['classList']['0'];
 						if(domicon.style.opacity == 1) {
 							for(var k = 0; k < selectArrary.length; k++) {
-								var selectTime=selectArrary[k];
+								var selectTime = selectArrary[k];
 								if(second <= xscale(selectTime[1]) && second >= xscale(selectTime[0])) {
 									item.style.opacity = 0.8;
 									light = 1;

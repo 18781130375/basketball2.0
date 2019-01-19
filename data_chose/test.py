@@ -9,6 +9,7 @@ This is a temporary script file.
 from flask import Flask, jsonify
 import pandas as pd
 import json
+import csv
 
 app = Flask(__name__)
 
@@ -200,14 +201,16 @@ def score(t1, t2):
   result1 = tojsons1(df, t1, t2)
   return jsonify(result1)
 
-#wrong
-@app.route('/attack_time/<t1>,<t2>', methods=['GET'])  #得分花费的时间
-def attack_time(t1, t2):
-  t1 = int(t1)
-  t2 = int(t2)
-  df = pd.read_csv('./play_attack_time.csv') #进攻时间
-  result1 = tojsons1(df,t1,t2)
-  return jsonify(result1)
+@app.route('/attack_time/<huihe>', methods=['GET'])  #得分花费的时间
+def attack_time(huihe):
+  result=[]
+  csv_file=csv.reader(open('play_attack_time.csv','r'))
+  for item in csv_file:
+    if(item[0]!='index'):
+      if (int(item[0])==int(huihe)):
+        result.append([int(item[1]),int(item[2])])
+  #print(result)
+  return jsonify(result)
 
 @app.route('/result_pos/<t1>,<t2>', methods=['GET'])  # 球员位置热力图
 def result_pos(t1, t2):

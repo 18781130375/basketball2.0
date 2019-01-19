@@ -9,7 +9,6 @@
 		<div class="footer">
 			<teamEvent></teamEvent>
 		</div>
-	
 	</div>
 </template>
 <script>
